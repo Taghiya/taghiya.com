@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&disaplay=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat" ,Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.nav-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 40px;
+}
+.nav-top-left i{
+    font-size: 20px;
+    padding: 0px 5px;
+    transition: all .5s;
+}
+.nav-top-left i:hover{
+    color: #03e9f4;
+    cursor: pointer;
+}
+.nav-top-right{
+    display: flex;
+
+}
+.nav-top-right i{
+    color: #03e9f4;
+    margin-right: 5px;
+}
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+    width: 100%;
+    height: 60px;
+}
+.nav-bottom-left{
+    font-size: 25px;
+    font-weight: 800;
+}
+.nav-bottom-left span{
+    color: #03e9f4 !important;
+}
+.nav-bottom-right a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+    font-weight: 500;
+    transform: all .3s;
+}
+.nav-bottom-right a:hover{
+    color: #03e9f4;
+    cursor: pointer;
+}
+.log-out a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding: 0px 10px;
+    font-weight: 500;
+    transform: all .3s;
+}
+.buyphoto-1{
+    margin-top: 10px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 2px solid #03f44b;
+    border-radius: 10px;
+    color: #03f44b;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all .5s;
+    display: calc(-50% 50%);
+    align-items: center;
+    justify-content: space-between;
+    width: 18%;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.buyphoto-1:hover{
+    color: white;
+    background-color: #03f44b;
+    cursor: pointer;
+}
+.photo-1{
+    width: 100%;
+    margin: auto;
+    padding: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 25px;
+    margin-bottom: 50px;
+}    
+.photo-1 img{
+    width: 18%;
+    height: 20vh;
+}
+.photo-2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -176px;
+    margin-left: 293px;
+    padding-right: 285px;
+
+}
+.photo-2 img{
+    width: 22%;
+    height: 20vh;
+}
+.buyphoto-2{
+    margin-top: 10px;
+    padding: 2px 2px;
+    background-color: transparent;
+    border: 2px solid #03f44b;
+    border-radius: 10px;
+    color: #03f44b;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all .5s;
+    display: calc(-50% 50%);
+    align-items: center;
+    justify-content: space-between;
+    width: 18%;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.buyphoto-2:hover{
+    color: white;
+    background-color: #03f44b;
+    cursor: pointer;
+}
+.photo-3{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -125px;
+    margin-left: 565px;
+    padding-right: 260px;   
+}
+.photo-3 img{
+    width: 22%;
+    height: 20vh;
+}
+.buyphoto-3{
+    margin-top: 10px;
+    padding: 2px 2px;
+    background-color: transparent;
+    border: 2px solid #03f44b;
+    border-radius: 10px;
+    color: #03f44b;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all .5s;
+    display: calc(-50% 50%);
+    align-items: center;
+    justify-content: space-between;
+    width: 18%;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+.buyphoto-3:hover{
+    color: white;
+    background-color: #03f44b;
+    cursor: pointer;
+}
